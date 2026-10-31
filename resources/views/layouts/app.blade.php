@@ -69,58 +69,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="bg-gray-50 dark:bg-slate-950 py-10 border-t border-gray-200 dark:border-slate-800 transition-colors">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-                    <div class="md:col-span-1">
-                        <a href="{{ route('home') }}" class="inline-flex flex-col w-fit mb-3 group">
-                            <span class="text-2xl font-extrabold tracking-tighter leading-none">
-                                TRIXO<span class="text-blue-600 dark:text-blue-500">IQ</span>
-                            </span>
-                            <span class="w-full text-[6px] font-bold tracking-tight text-blue-600 dark:text-blue-400 uppercase text-center mt-1 block">
-                                Think Smart. Build Beyond.
-                            </span>
-                        </a>
-                        <p class="text-gray-500 dark:text-gray-400 text-sm">
-                            Building premium digital solutions that convert visitors into clients.
-                        </p>
-                    </div>
-                    <div>
-                        <h4 class="font-bold mb-4 text-gray-900 dark:text-white">Services</h4>
-                        <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                            <li><a href="{{ route('services.laravel') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Laravel Development</a></li>
-                            <li><a href="{{ route('services.crm') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">CRM Systems</a></li>
-                            <li><a href="{{ route('services.erp') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">ERP Solutions</a></li>
-                            <li><a href="{{ route('services.business-website') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Business Websites</a></li>
-                            <li><a href="{{ route('services.school-management') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">School Management</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-bold mb-4 text-gray-900 dark:text-white">Company</h4>
-                        <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                            <li><a href="{{ route('home') }}#about" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a></li>
-                            <li><a href="{{ route('blog.index') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Blog</a></li>
-                            <li><a href="{{ route('home') }}#portfolio" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Portfolio</a></li>
-                            <li><a href="{{ route('testimonials.index') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Testimonials</a></li>
-                            <li><a href="{{ route('contact') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-bold mb-4 text-gray-900 dark:text-white">Admin</h4>
-                        <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                            @auth
-                                <li><a href="{{ route('dashboard') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Dashboard</a></li>
-                            @else
-                                <li><a href="{{ route('login') }}" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Login</a></li>
-                            @endauth
-                        </ul>
-                    </div>
-                </div>
-                <div class="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 dark:text-gray-400">
-                    &copy; {{ date('Y') }} Trixoiq. All rights reserved.
-                </div>
-            </div>
-        </footer>
+        @include('partials.footer')
 
         <!-- Dark Mode Toggle Logic -->
         <script>

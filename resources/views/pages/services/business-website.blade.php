@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Premium Business Website Development | VEXORIQ')
+@section('title', 'Premium Business Website Development | Trixoiq')
 @section('meta_description', 'High-conversion, custom business websites designed to generate leads and showcase your brand authority. Fast, secure, and mobile-optimized.')
 
 @section('content')

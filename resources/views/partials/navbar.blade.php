@@ -7,7 +7,7 @@
             <!-- Left: Logo -->
             <div class="flex items-center">
                 <a href="{{ url('/') }}" class="flex-shrink-0 flex flex-col justify-center gap-0 group">
-                    <span class="font-manrope font-bold text-xl text-dark tracking-tight leading-tight group-hover:text-primary transition-colors">VEXORIQ</span>
+                    <span class="font-manrope font-bold text-xl text-dark tracking-tight leading-tight group-hover:text-primary transition-colors">Trixoiq</span>
                     <span class="text-[10px] font-semibold text-slate-500 tracking-wider uppercase leading-tight">Think Smart. Build Beyond.</span>
                 </a>
             </div>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $category->name . ' | VEXORIQ Blog')
+@section('title', $category->name . ' | Trixoiq Blog')
 @section('meta_description', $category->description ?? 'Read our latest posts about ' . $category->name)
 
 @section('content')

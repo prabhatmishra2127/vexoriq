@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $post->title . ' | VEXORIQ')
+@section('title', $post->title . ' | Trixoiq')
 @section('meta_description', $post->meta_description ?? $post->excerpt ?? Str::limit(strip_tags($post->content), 150))
 @section('og_image', $post->featured_image ? Storage::url($post->featured_image) : null)
 
@@ -22,7 +22,7 @@
   },  
   "publisher": {
     "@@type": "Organization",
-    "name": "VEXORIQ",
+    "name": "Trixoiq",
     "logo": {
       "@@type": "ImageObject",
       "url": "{{ url('/logo.png') }}"

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Blog & Insights | VEXORIQ')
+@section('title', 'Blog & Insights | Trixoiq')
 @section('meta_description', 'Discover the latest insights on web development, Laravel, React, and business software solutions.')
 
 @section('content')

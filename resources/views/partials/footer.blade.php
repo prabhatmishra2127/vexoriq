@@ -6,9 +6,9 @@
             <div class="lg:col-span-1">
                 <a href="#" class="text-2xl font-bold font-manrope tracking-tight text-white flex items-center gap-2 mb-1">
                     <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                        <span class="text-white text-lg leading-none">V</span>
+                        <span class="text-white text-lg leading-none">T</span>
                     </div>
-                    VEXORIQ
+                    Trixoiq
                 </a>
                 <p class="text-xs font-semibold uppercase tracking-wider text-blue-400 mb-3">
                     Think Smart. Build Beyond.
@@ -63,7 +63,7 @@
             <!-- Email / Newsletter -->
             <div class="lg:col-span-1">
                 <h4 class="text-white font-bold mb-6">Ready to start?</h4>
-                <a href="mailto:hello@vexoriq.com" class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-6 py-3 rounded-lg text-sm font-semibold transition-colors w-full shadow-lg shadow-primary/20">
+                <a href="mailto:hello@trixoiq.com" class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-6 py-3 rounded-lg text-sm font-semibold transition-colors w-full shadow-lg shadow-primary/20">
                     Email Us
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                 </a>
@@ -72,7 +72,7 @@
         </div>
 
         <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p class="text-slate-500 text-sm">© {{ date('Y') }} VEXORIQ. All rights reserved.</p>
+            <p class="text-slate-500 text-sm">© {{ date('Y') }} Trixoiq. All rights reserved.</p>
             <div class="flex gap-6">
                 <a href="#" class="text-slate-500 text-sm hover:text-white transition-colors">Privacy Policy</a>
                 <a href="#" class="text-slate-500 text-sm hover:text-white transition-colors">Terms of Service</a>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'VEXORIQ - Think Smart. Build Beyond.')
+@section('title', 'Trixoiq - Think Smart. Build Beyond.')
 
 @section('content')
     @include('sections.hero')

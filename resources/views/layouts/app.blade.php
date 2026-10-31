@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>@yield('title', config('app.name', 'VEXORIQ'))</title>
-        <meta name="description" content="@yield('meta_description', 'VEXORIQ - Think Smart. Build Beyond. Professional web development, Laravel, React, and business software solutions.')">
+        <title>@yield('title', config('app.name', 'Trixoiq'))</title>
+        <meta name="description" content="@yield('meta_description', 'Trixoiq - Think Smart. Build Beyond. Professional web development, Laravel, React, and business software solutions.')">
         
         <!-- Open Graph -->
-        <meta property="og:title" content="@yield('title', config('app.name', 'VEXORIQ'))">
-        <meta property="og:description" content="@yield('meta_description', 'VEXORIQ - Think Smart. Build Beyond. Professional web development and business software solutions.')">
+        <meta property="og:title" content="@yield('title', config('app.name', 'Trixoiq'))">
+        <meta property="og:description" content="@yield('meta_description', 'Trixoiq - Think Smart. Build Beyond. Professional web development and business software solutions.')">
         @if(View::hasSection('og_image'))
             <meta property="og:image" content="@yield('og_image')">
         @endif
@@ -37,7 +37,7 @@
         {
           "@@context": "https://schema.org",
           "@@type": ["Organization", "WebSite"],
-          "name": "VEXORIQ",
+          "name": "Trixoiq",
           "url": "{{ url('/') }}",
           "logo": "{{ url('/logo.png') }}",
           "founder": {
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 dark:text-gray-400">
-                    &copy; {{ date('Y') }} VEXORIQ. All rights reserved.
+                    &copy; {{ date('Y') }} Trixoiq. All rights reserved.
                 </div>
             </div>
         </footer>

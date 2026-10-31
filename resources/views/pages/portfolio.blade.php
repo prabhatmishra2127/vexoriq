@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Portfolio | VEXORIQ')
+@section('title', 'Portfolio | Trixoiq')
 
 @section('content')
 <!-- Hero Section -->

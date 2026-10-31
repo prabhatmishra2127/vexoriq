@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $project['title'] . ' | Case Study | VEXORIQ')
+@section('title', $project['title'] . ' | Case Study | Trixoiq')
 
 @section('content')
 <!-- Hero Section -->

@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <!-- Right Side: VEXORIQ Web Development Workspace Image -->
+            <!-- Right Side: Trixoiq Web Development Workspace Image -->
             <div class="relative w-full max-w-lg mx-auto lg:max-w-none lg:-translate-y-6">
                 <!-- Soft Glow Effect -->
                 <div class="absolute -inset-2 bg-gradient-to-tr from-blue-600/20 via-indigo-600/20 to-purple-600/10 rounded-3xl blur-2xl pointer-events-none"></div>
@@ -78,7 +78,7 @@
                 <!-- Clean Image Card -->
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80 dark:border-slate-800 bg-white dark:bg-slate-900">
                     <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=900&q=80" 
-                         alt="VEXORIQ - Web Development & Modern Software Solutions" 
+                         alt="Trixoiq - Web Development & Modern Software Solutions" 
                          class="w-full h-[400px] sm:h-[460px] lg:h-[480px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
                          loading="eager">
                 </div>

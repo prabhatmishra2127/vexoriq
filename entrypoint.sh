@@ -36,8 +36,9 @@ if [ -z "$APP_KEY" ]; then
     php artisan key:generate --force || true
 fi
 
-# Run database migrations
+# Run database migrations and seeders
 php artisan migrate --force || true
+php artisan db:seed --force || true
 
 # Clear caches for fresh startup
 php artisan config:clear || true

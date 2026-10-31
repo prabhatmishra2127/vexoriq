@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: trixoiq
+    name: vexoriq
     runtime: docker
     plan: free
     region: oregon
@@ -13,6 +13,8 @@ services:
         value: production
       - key: APP_DEBUG
         value: "false"
+      - key: APP_URL
+        value: https://vexoriq.onrender.com
       - key: LOG_CHANNEL
         value: stderr
       - key: DB_CONNECTION

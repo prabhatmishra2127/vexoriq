@@ -10,6 +10,15 @@ if [ ! -f /app/.env ]; then
     fi
 fi
 
+# Ensure running in production on Render
+if [ -n "$PORT" ] || [ -n "$RENDER" ]; then
+    grep -q "APP_ENV=" /app/.env && sed -i 's/^APP_ENV=.*/APP_ENV=production/' /app/.env || echo "APP_ENV=production" >> /app/.env
+    grep -q "APP_DEBUG=" /app/.env && sed -i 's/^APP_DEBUG=.*/APP_DEBUG=false/' /app/.env || echo "APP_DEBUG=false" >> /app/.env
+fi
+
+# Remove Vite hot-reloading dev file if present to guarantee compiled production assets
+rm -f /app/public/hot
+
 # Ensure database directory and sqlite file exist
 mkdir -p /app/database
 touch /app/database/database.sqlite
@@ -37,4 +46,3 @@ php artisan view:clear || true
 
 echo "Starting Trixoiq on port ${PORT:-10000}..."
 exec php artisan serve --host=0.0.0.0 --port="${PORT:-10000}"
-

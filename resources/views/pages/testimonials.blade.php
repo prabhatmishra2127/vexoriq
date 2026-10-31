@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Client Success Stories & Testimonials | Bizwoke')
-@section('meta_description', 'Read what our clients have to say about working with Bizwoke on their custom websites, web applications, and software systems.')
+@section('title', 'Client Success Stories & Testimonials | VEXORIQ')
+@section('meta_description', 'Read what our clients have to say about working with VEXORIQ on their custom websites, web applications, and software systems.')
 
 @section('content')
 <div class="pt-32 pb-20 bg-gray-50 dark:bg-slate-900 min-h-screen transition-colors duration-200">

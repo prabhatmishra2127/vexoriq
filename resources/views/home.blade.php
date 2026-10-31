@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bizwoke - Modern Web Solutions')
+@section('title', 'VEXORIQ - Think Smart. Build Beyond.')
 
 @section('content')
     @include('sections.hero')
@@ -12,6 +12,5 @@
     @include('sections.projects')
     @include('sections.testimonials')
     @include('sections.estimator_preview')
-    @include('sections.pricing')
     @include('sections.faq')
 @endsection

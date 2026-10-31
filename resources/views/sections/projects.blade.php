@@ -41,8 +41,8 @@
             <!-- Project 2 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="order-1 lg:order-1">
-                    <div class="rounded-3xl overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-                        <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Inventory Management" class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 h-[360px] sm:h-[390px] lg:h-[410px] w-full">
+                        <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Inventory Management" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700">
                     </div>
                 </div>
                 <div class="order-2 lg:order-2">

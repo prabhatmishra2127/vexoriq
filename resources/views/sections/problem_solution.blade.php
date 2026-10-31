@@ -1,4 +1,4 @@
-<section class="py-24 bg-white dark:bg-slate-950 relative overflow-hidden transition-colors duration-200">
+<section class="pt-16 pb-10 sm:pt-20 sm:pb-12 bg-white dark:bg-slate-950 relative overflow-hidden transition-colors duration-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="text-primary font-semibold tracking-wider uppercase text-sm">The Transformation</span>

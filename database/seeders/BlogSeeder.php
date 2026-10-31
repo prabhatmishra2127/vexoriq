@@ -16,7 +16,7 @@ class BlogSeeder extends Seeder
      */
     public function run(): void
     {
-        $admin = User::first() ?? User::factory()->create(['name' => 'Sachin Maurya']);
+        $admin = User::first() ?? User::factory()->create(['name' => 'Prabhat Mishra']);
 
         $categories = [
             ['name' => 'Web Development', 'slug' => 'web-development'],

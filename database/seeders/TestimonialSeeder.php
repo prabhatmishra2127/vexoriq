@@ -14,7 +14,7 @@ class TestimonialSeeder extends Seeder
                 'client_name' => 'Sarah Jenkins',
                 'company_name' => 'TechFlow Solutions',
                 'designation' => 'CEO',
-                'feedback' => 'Working with Sachin was an absolute game-changer. He didn\'t just build a website; he completely re-engineered our digital presence. Our new custom SaaS platform is incredibly fast, intuitive, and perfectly aligned with our business goals. The post-launch support has been exceptional.',
+                'feedback' => 'Working with Prabhat was an absolute game-changer. He didn\'t just build a website; he completely re-engineered our digital presence. Our new custom SaaS platform is incredibly fast, intuitive, and perfectly aligned with our business goals. The post-launch support has been exceptional.',
                 'rating' => 5,
                 'project_type' => 'Custom Web Application',
                 'is_featured' => true,

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Get an Instant Project Estimate | Bizwoke')
+@section('title', 'Get an Instant Project Estimate | VEXORIQ')
 @section('meta_description', 'Answer a few simple questions to instantly calculate a rough cost and timeline for your custom website, software, or web application project.')
 
 @section('content')

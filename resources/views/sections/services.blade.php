@@ -1,9 +1,9 @@
-<section class="py-24 bg-slate-50 dark:bg-slate-900 transition-colors duration-200 relative" id="services">
+<section class="pt-8 pb-16 sm:pt-12 sm:pb-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-200 relative" id="services">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16">
             <div class="max-w-2xl">
                 <span class="text-primary font-semibold tracking-wider uppercase text-sm flex items-center gap-2"><div class="w-8 h-0.5 bg-primary"></div> Our Expertise</span>
-                <h2 class="mt-4 text-3xl sm:text-4xl font-bold font-manrope text-dark">High-Impact Digital Solutions</h2>
+                <h2 class="mt-4 text-3xl sm:text-4xl font-bold font-manrope text-dark dark:text-white">High-Impact Digital Solutions</h2>
             </div>
             <div class="mt-6 md:mt-0">
                 <x-button variant="outline" class="border-slate-200 text-slate-600 hover:border-primary hover:text-primary bg-white shadow-sm hover:shadow">View All Services</x-button>

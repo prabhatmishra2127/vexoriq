@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Custom CRM Development Services | Bizwoke')
+@section('title', 'Custom CRM Development Services | VEXORIQ')
 @section('meta_description', 'Boost your sales and manage leads effectively with our custom CRM development services. Tailored to your unique business workflow.')
 
 @section('content')

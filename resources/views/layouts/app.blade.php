@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>@yield('title', config('app.name', 'Bizwoke'))</title>
-        <meta name="description" content="@yield('meta_description', 'Professional web development, Laravel, React, and business software solutions.')">
+        <title>@yield('title', config('app.name', 'VEXORIQ'))</title>
+        <meta name="description" content="@yield('meta_description', 'VEXORIQ - Think Smart. Build Beyond. Professional web development, Laravel, React, and business software solutions.')">
         
         <!-- Open Graph -->
-        <meta property="og:title" content="@yield('title', config('app.name', 'Bizwoke'))">
-        <meta property="og:description" content="@yield('meta_description', 'Professional web development and business software solutions.')">
+        <meta property="og:title" content="@yield('title', config('app.name', 'VEXORIQ'))">
+        <meta property="og:description" content="@yield('meta_description', 'VEXORIQ - Think Smart. Build Beyond. Professional web development and business software solutions.')">
         @if(View::hasSection('og_image'))
             <meta property="og:image" content="@yield('og_image')">
         @endif
@@ -37,17 +37,18 @@
         {
           "@@context": "https://schema.org",
           "@@type": ["Organization", "WebSite"],
-          "name": "Bizwoke",
+          "name": "VEXORIQ",
           "url": "{{ url('/') }}",
           "logo": "{{ url('/logo.png') }}",
           "founder": {
             "@@type": "Person",
-            "name": "Sachin Maurya"
+            "name": "Prabhat Mishra"
           },
           "description": "Professional web development, Laravel, React, and business software solutions.",
           "contactPoint": {
             "@@type": "ContactPoint",
             "contactType": "Customer Service",
+            "telephone": "+91-9305032850",
             "url": "{{ url('/contact') }}"
           }
         }
@@ -61,8 +62,13 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-20">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="{{ route('home') }}" class="text-2xl font-extrabold tracking-tighter">
-                            BIZ<span class="text-blue-600 dark:text-blue-500">WOKE</span>
+                        <a href="{{ route('home') }}" class="inline-flex flex-col w-fit group">
+                            <span class="text-2xl font-extrabold tracking-tighter leading-none">
+                                VEXOR<span class="text-blue-600 dark:text-blue-500">IQ</span>
+                            </span>
+                            <span class="w-full text-[6px] font-bold tracking-tight text-gray-500 dark:text-gray-400 uppercase text-center mt-1 block">
+                                Think Smart. Build Beyond.
+                            </span>
                         </a>
                     </div>
                     
@@ -127,12 +133,17 @@
         </main>
 
         <!-- Footer -->
-        <footer class="bg-gray-50 dark:bg-slate-950 py-12 border-t border-gray-200 dark:border-slate-800 mt-20 transition-colors">
+        <footer class="bg-gray-50 dark:bg-slate-950 py-10 border-t border-gray-200 dark:border-slate-800 transition-colors">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div class="md:col-span-1">
-                        <a href="{{ route('home') }}" class="text-2xl font-extrabold tracking-tighter mb-4 inline-block">
-                            BIZ<span class="text-blue-600 dark:text-blue-500">WOKE</span>
+                        <a href="{{ route('home') }}" class="inline-flex flex-col w-fit mb-3 group">
+                            <span class="text-2xl font-extrabold tracking-tighter leading-none">
+                                VEXOR<span class="text-blue-600 dark:text-blue-500">IQ</span>
+                            </span>
+                            <span class="w-full text-[6px] font-bold tracking-tight text-blue-600 dark:text-blue-400 uppercase text-center mt-1 block">
+                                Think Smart. Build Beyond.
+                            </span>
                         </a>
                         <p class="text-gray-500 dark:text-gray-400 text-sm">
                             Building premium digital solutions that convert visitors into clients.
@@ -170,7 +181,7 @@
                     </div>
                 </div>
                 <div class="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 dark:text-gray-400">
-                    &copy; {{ date('Y') }} Bizwoke. All rights reserved.
+                    &copy; {{ date('Y') }} VEXORIQ. All rights reserved.
                 </div>
             </div>
         </footer>

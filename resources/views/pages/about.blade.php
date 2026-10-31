@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us | Bizwoke')
+@section('title', 'About Us | VEXORIQ')
 
 @section('content')
 <!-- Hero Section -->

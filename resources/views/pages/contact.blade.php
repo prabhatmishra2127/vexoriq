@@ -75,7 +75,7 @@
                                 </div>
                                 <div>
                                     <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider">Location</h4>
-                                    <span class="text-slate-600">Mumbai, India</span>
+                                    <span class="text-slate-600">Noida Sector 62, India</span>
                                 </div>
                             </div>
                         </div>

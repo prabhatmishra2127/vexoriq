@@ -64,7 +64,7 @@
                     <div class="flex-shrink-0 flex items-center">
                         <a href="{{ route('home') }}" class="inline-flex flex-col w-fit group">
                             <span class="text-2xl font-extrabold tracking-tighter leading-none">
-                                VEXOR<span class="text-blue-600 dark:text-blue-500">IQ</span>
+                                TRIXO<span class="text-blue-600 dark:text-blue-500">IQ</span>
                             </span>
                             <span class="w-full text-[6px] font-bold tracking-tight text-gray-500 dark:text-gray-400 uppercase text-center mt-1 block">
                                 Think Smart. Build Beyond.
@@ -139,7 +139,7 @@
                     <div class="md:col-span-1">
                         <a href="{{ route('home') }}" class="inline-flex flex-col w-fit mb-3 group">
                             <span class="text-2xl font-extrabold tracking-tighter leading-none">
-                                VEXOR<span class="text-blue-600 dark:text-blue-500">IQ</span>
+                                TRIXO<span class="text-blue-600 dark:text-blue-500">IQ</span>
                             </span>
                             <span class="w-full text-[6px] font-bold tracking-tight text-blue-600 dark:text-blue-400 uppercase text-center mt-1 block">
                                 Think Smart. Build Beyond.

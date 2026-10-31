@@ -6,9 +6,9 @@
             <div class="lg:col-span-1">
                 <a href="#" class="text-2xl font-bold font-manrope tracking-tight text-white flex items-center gap-2 mb-1">
                     <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                        <span class="text-white text-lg leading-none">T</span>
+                        <span class="text-white text-lg leading-none font-bold">T</span>
                     </div>
-                    Trixoiq
+                    TRIXO<span class="text-blue-400">IQ</span>
                 </a>
                 <p class="text-xs font-semibold uppercase tracking-wider text-blue-400 mb-3">
                     Think Smart. Build Beyond.

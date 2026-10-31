@@ -1,4 +1,4 @@
-<section class="py-24 bg-dark relative overflow-hidden">
+<section class="py-14 sm:py-20 lg:py-24 bg-dark relative overflow-hidden">
     <!-- Decorative -->
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
         <div class="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-primary/10 blur-3xl"></div>
@@ -6,10 +6,10 @@
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="text-accent font-semibold tracking-wider uppercase text-sm">The Advantage</span>
-            <h2 class="mt-3 text-3xl sm:text-4xl font-bold font-manrope text-white">Why Choose Me</h2>
-            <p class="mt-4 text-slate-400 text-lg">Delivering exceptional value through engineering excellence and transparent collaboration.</p>
+        <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
+            <span class="text-accent font-semibold tracking-wider uppercase text-xs sm:text-sm">The Advantage</span>
+            <h2 class="mt-2.5 sm:mt-3 text-2xl sm:text-4xl font-bold font-manrope text-white">Why Choose Me</h2>
+            <p class="mt-3 sm:mt-4 text-slate-400 text-sm sm:text-lg">Delivering exceptional value through engineering excellence and transparent collaboration.</p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

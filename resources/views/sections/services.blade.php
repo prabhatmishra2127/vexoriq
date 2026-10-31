@@ -1,12 +1,12 @@
-<section class="pt-8 pb-16 sm:pt-12 sm:pb-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-200 relative" id="services">
+<section class="pt-8 pb-14 sm:pt-12 sm:pb-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-200 relative overflow-hidden" id="services">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 sm:mb-16 gap-4">
             <div class="max-w-2xl">
-                <span class="text-primary font-semibold tracking-wider uppercase text-sm flex items-center gap-2"><div class="w-8 h-0.5 bg-primary"></div> Our Expertise</span>
-                <h2 class="mt-4 text-3xl sm:text-4xl font-bold font-manrope text-dark dark:text-white">High-Impact Digital Solutions</h2>
+                <span class="text-primary font-semibold tracking-wider uppercase text-xs sm:text-sm flex items-center gap-2"><div class="w-8 h-0.5 bg-primary"></div> Our Expertise</span>
+                <h2 class="mt-2.5 sm:mt-4 text-2xl sm:text-4xl font-bold font-manrope text-dark dark:text-white">High-Impact Digital Solutions</h2>
             </div>
-            <div class="mt-6 md:mt-0">
-                <x-button variant="outline" class="border-slate-200 text-slate-600 hover:border-primary hover:text-primary bg-white shadow-sm hover:shadow">View All Services</x-button>
+            <div>
+                <a href="{{ route('contact') }}" class="w-full sm:w-auto inline-flex items-center justify-center px-5 py-2.5 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:border-primary hover:text-primary dark:hover:text-primary bg-white dark:bg-slate-800 rounded-xl shadow-sm text-sm font-semibold transition-colors">View All Services</a>
             </div>
         </div>
         

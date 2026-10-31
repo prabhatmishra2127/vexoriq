@@ -1,9 +1,9 @@
-<section class="py-24 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-200">
+<section class="py-14 sm:py-20 lg:py-24 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 transition-colors duration-200 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-20">
-            <span class="text-secondary font-semibold tracking-wider uppercase text-sm">How We Work</span>
-            <h2 class="mt-3 text-3xl sm:text-4xl font-bold font-manrope text-dark dark:text-white">Proven Development Process</h2>
-            <p class="mt-4 text-slate-600 dark:text-slate-400 text-lg">A systematic approach to guarantee quality and transparency from start to finish.</p>
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-20">
+            <span class="text-secondary font-semibold tracking-wider uppercase text-xs sm:text-sm">How We Work</span>
+            <h2 class="mt-2.5 sm:mt-3 text-2xl sm:text-4xl font-bold font-manrope text-dark dark:text-white">Proven Development Process</h2>
+            <p class="mt-3 sm:mt-4 text-slate-600 dark:text-slate-400 text-sm sm:text-lg">A systematic approach to guarantee quality and transparency from start to finish.</p>
         </div>
 
         @php
